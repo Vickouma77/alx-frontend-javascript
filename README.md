@@ -1,7 +1,8 @@
 # alx-frontend-javascript
 
-## Description
+# Description
 This repository contains projects on JavaScript programming language.
 
-## Projects
-1. [0x00. ES6 Basics](./0x00-ES6_basics)
+# Projects
+- [x] [0x00-ES6_basic](./0x00-ES6_basic)
+- [x] [0x01-ES6_promise](./0x01-ES6_promise)
