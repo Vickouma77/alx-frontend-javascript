@@ -1,8 +1,8 @@
 import signUpUser from './4-user-promise';
 import uploadPhoto from './5-photo-reject';
-
+// eslint-disable-next-line no-unused-vars
 export default function handleProfileSignup(firstName, lastName, filename) {
-  return Promise.allSettled([signUpUser(firstName, lastName), uploadPhoto(filename)])
+  return Promise.allSettled([signUpUser, uploadPhoto])
     .then((results) => {
       for (const result of results) {
         if (result.status === 'rejected') {
