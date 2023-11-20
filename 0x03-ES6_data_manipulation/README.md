@@ -16,3 +16,8 @@ Description: This directory contains the ES6 data manipulation project files.
 * All of your functions must be exported
 * Your code needs to pass all the tests and lint. You can verify the entire project running npm run  full-test
 
+## Tasks
+* 0. Basic list of objects
+* 1. More mapping 
+* 2. Filter 
+* 3. Reduce
